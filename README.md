@@ -9,7 +9,7 @@
 * 下载本代码
 * 如果是windows系统：
 	* 将本文件目录下，windows目录下的curl.exe(64位的，32位的自己去[官网](https://curl.haxx.se/download.html)下吧)复制到```C:\Windows\System32```目录下。
-	* 将```login.bat```复制到```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```目录下(实现开机启动这个bat文件)。
+	* 将```login.bat```复制到```C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp```(这是个隐藏目录)目录下(实现开机启动这个bat文件)。
 	* OK，下次开机就会自动登陆校园网了。
 * 如果是Linux系统：
 	* 将linux目录下的```login.sh```加入到开机启动项，方法自己百度吧。
